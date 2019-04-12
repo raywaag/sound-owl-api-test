@@ -6,7 +6,7 @@ container.setAttribute('class', 'container');
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://sound-owl.localtunnel.me/api/artists?access_token=0s4I3w1cCKctvaOdnfKPn8kjFT2pT33bML99u6ETp4aGoFttJDDJKUMHyPDyYUXk', true);
+request.open('GET', 'https://raywaag.github.io/sound-owl-api/api/artists?access_token=0s4I3w1cCKctvaOdnfKPn8kjFT2pT33bML99u6ETp4aGoFttJDDJKUMHyPDyYUXk', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
